@@ -1,0 +1,490 @@
+[
+  {
+    "_id": {
+      "$oid": "66d000000000000000000001"
+    },
+    "numero": "B001-000001",
+    "tipo_comprobante": "BOLETA",
+    "fecha": {
+      "$date": "2026-03-14T16:20:00Z"
+    },
+    "cliente_id": {
+      "$oid": "66c000000000000000000001"
+    },
+    "cliente": {
+      "nombre": "Carlos Pérez Rojas",
+      "tipo_documento": "DNI",
+      "numero_documento": "45678912"
+    },
+    "items": [
+      {
+        "producto_id": {
+          "$oid": "66b000000000000000000001"
+        },
+        "codigo": "LAP-LEN-001",
+        "nombre": "Lenovo IdeaPad Slim 5 14\"",
+        "categoria": "laptop",
+        "cantidad": 1,
+        "precio_unitario": 3299,
+        "descuento": 0,
+        "subtotal": 3299
+      },
+      {
+        "producto_id": {
+          "$oid": "66b000000000000000000010"
+        },
+        "codigo": "ACC-LOG-010",
+        "nombre": "Logitech MX Master 3S",
+        "categoria": "accesorio",
+        "cantidad": 1,
+        "precio_unitario": 449,
+        "descuento": 20,
+        "subtotal": 429
+      }
+    ],
+    "subtotal": 3728,
+    "igv": 671.04,
+    "total": 4399.04,
+    "metodo_pago": "TARJETA",
+    "estado": "PAGADA",
+    "vendedor": "Ana Martínez"
+  },
+  {
+    "_id": {
+      "$oid": "66d000000000000000000002"
+    },
+    "numero": "F001-000001",
+    "tipo_comprobante": "FACTURA",
+    "fecha": {
+      "$date": "2026-04-02T14:05:00Z"
+    },
+    "cliente_id": {
+      "$oid": "66c000000000000000000003"
+    },
+    "cliente": {
+      "nombre": "Estudio Contable Mantaro S.A.C.",
+      "tipo_documento": "RUC",
+      "numero_documento": "20587654329"
+    },
+    "items": [
+      {
+        "producto_id": {
+          "$oid": "66b000000000000000000003"
+        },
+        "codigo": "LAP-HP-003",
+        "nombre": "HP 250 G10",
+        "categoria": "laptop",
+        "cantidad": 5,
+        "precio_unitario": 2199,
+        "descuento": 250,
+        "subtotal": 10745
+      },
+      {
+        "producto_id": {
+          "$oid": "66b000000000000000000009"
+        },
+        "codigo": "MON-LG-009",
+        "nombre": "LG 24MP400 24\"",
+        "categoria": "monitor",
+        "cantidad": 5,
+        "precio_unitario": 549,
+        "descuento": 0,
+        "subtotal": 2745
+      }
+    ],
+    "subtotal": 13490,
+    "igv": 2428.2,
+    "total": 15918.2,
+    "metodo_pago": "TRANSFERENCIA",
+    "estado": "PAGADA",
+    "vendedor": "Pedro Ramírez"
+  },
+  {
+    "_id": {
+      "$oid": "66d000000000000000000003"
+    },
+    "numero": "B001-000002",
+    "tipo_comprobante": "BOLETA",
+    "fecha": {
+      "$date": "2026-04-27T19:45:00Z"
+    },
+    "cliente_id": {
+      "$oid": "66c000000000000000000002"
+    },
+    "cliente": {
+      "nombre": "María López Gutiérrez",
+      "tipo_documento": "DNI",
+      "numero_documento": "71234567"
+    },
+    "items": [
+      {
+        "producto_id": {
+          "$oid": "66b000000000000000000008"
+        },
+        "codigo": "MON-SAM-008",
+        "nombre": "Samsung Odyssey G5 27\"",
+        "categoria": "monitor",
+        "cantidad": 1,
+        "precio_unitario": 1199,
+        "descuento": 0,
+        "subtotal": 1199
+      },
+      {
+        "producto_id": {
+          "$oid": "66b000000000000000000011"
+        },
+        "codigo": "ACC-HYP-011",
+        "nombre": "HyperX Alloy Origins Core",
+        "categoria": "accesorio",
+        "cantidad": 1,
+        "precio_unitario": 389,
+        "descuento": 0,
+        "subtotal": 389
+      }
+    ],
+    "subtotal": 1588,
+    "igv": 285.84,
+    "total": 1873.84,
+    "metodo_pago": "YAPE",
+    "estado": "PAGADA",
+    "vendedor": "Ana Martínez"
+  },
+  {
+    "_id": {
+      "$oid": "66d000000000000000000004"
+    },
+    "numero": "B001-000003",
+    "tipo_comprobante": "BOLETA",
+    "fecha": {
+      "$date": "2026-05-18T21:10:00Z"
+    },
+    "cliente_id": {
+      "$oid": "66c000000000000000000004"
+    },
+    "cliente": {
+      "nombre": "Javier García Torres",
+      "tipo_documento": "DNI",
+      "numero_documento": "70011223"
+    },
+    "items": [
+      {
+        "producto_id": {
+          "$oid": "66b000000000000000000002"
+        },
+        "codigo": "LAP-ASU-002",
+        "nombre": "ASUS TUF Gaming F15",
+        "categoria": "laptop",
+        "cantidad": 1,
+        "precio_unitario": 4899,
+        "descuento": 100,
+        "subtotal": 4799
+      },
+      {
+        "producto_id": {
+          "$oid": "66b000000000000000000012"
+        },
+        "codigo": "COM-KIN-012",
+        "nombre": "Kingston FURY Beast 16GB DDR5",
+        "categoria": "componente",
+        "cantidad": 2,
+        "precio_unitario": 289,
+        "descuento": 0,
+        "subtotal": 578
+      }
+    ],
+    "subtotal": 5377,
+    "igv": 967.86,
+    "total": 6344.86,
+    "metodo_pago": "TARJETA",
+    "estado": "PAGADA",
+    "vendedor": "Pedro Ramírez"
+  },
+  {
+    "_id": {
+      "$oid": "66d000000000000000000005"
+    },
+    "numero": "F001-000002",
+    "tipo_comprobante": "FACTURA",
+    "fecha": {
+      "$date": "2026-06-09T15:30:00Z"
+    },
+    "cliente_id": {
+      "$oid": "66c000000000000000000005"
+    },
+    "cliente": {
+      "nombre": "Colegio Andino del Centro E.I.R.L.",
+      "tipo_documento": "RUC",
+      "numero_documento": "20612345678"
+    },
+    "items": [
+      {
+        "producto_id": {
+          "$oid": "66b000000000000000000005"
+        },
+        "codigo": "DES-HP-005",
+        "nombre": "HP Pro Tower 400 G9",
+        "categoria": "desktop",
+        "cantidad": 4,
+        "precio_unitario": 2899,
+        "descuento": 200,
+        "subtotal": 11396
+      },
+      {
+        "producto_id": {
+          "$oid": "66b000000000000000000009"
+        },
+        "codigo": "MON-LG-009",
+        "nombre": "LG 24MP400 24\"",
+        "categoria": "monitor",
+        "cantidad": 4,
+        "precio_unitario": 549,
+        "descuento": 0,
+        "subtotal": 2196
+      },
+      {
+        "producto_id": {
+          "$oid": "66b000000000000000000010"
+        },
+        "codigo": "ACC-LOG-010",
+        "nombre": "Logitech MX Master 3S",
+        "categoria": "accesorio",
+        "cantidad": 4,
+        "precio_unitario": 449,
+        "descuento": 0,
+        "subtotal": 1796
+      }
+    ],
+    "subtotal": 15388,
+    "igv": 2769.84,
+    "total": 18157.84,
+    "metodo_pago": "TRANSFERENCIA",
+    "estado": "PAGADA",
+    "vendedor": "Ana Martínez"
+  },
+  {
+    "_id": {
+      "$oid": "66d000000000000000000006"
+    },
+    "numero": "B001-000004",
+    "tipo_comprobante": "BOLETA",
+    "fecha": {
+      "$date": "2026-07-22T17:00:00Z"
+    },
+    "cliente_id": {
+      "$oid": "66c000000000000000000001"
+    },
+    "cliente": {
+      "nombre": "Carlos Pérez Rojas",
+      "tipo_documento": "DNI",
+      "numero_documento": "45678912"
+    },
+    "items": [
+      {
+        "producto_id": {
+          "$oid": "66b000000000000000000012"
+        },
+        "codigo": "COM-KIN-012",
+        "nombre": "Kingston FURY Beast 16GB DDR5",
+        "categoria": "componente",
+        "cantidad": 1,
+        "precio_unitario": 289,
+        "descuento": 0,
+        "subtotal": 289
+      }
+    ],
+    "subtotal": 289,
+    "igv": 52.02,
+    "total": 341.02,
+    "metodo_pago": "EFECTIVO",
+    "estado": "ANULADA",
+    "vendedor": "Pedro Ramírez"
+  },
+  {
+    "_id": {
+      "$oid": "66d000000000000000000007"
+    },
+    "numero": "B001-000005",
+    "tipo_comprobante": "BOLETA",
+    "fecha": {
+      "$date": "2026-08-05T20:15:00Z"
+    },
+    "cliente_id": {
+      "$oid": "66c000000000000000000006"
+    },
+    "cliente": {
+      "nombre": "Lucía Sánchez Vargas",
+      "tipo_documento": "DNI",
+      "numero_documento": "76543210"
+    },
+    "items": [
+      {
+        "producto_id": {
+          "$oid": "66b000000000000000000007"
+        },
+        "codigo": "AIO-LEN-007",
+        "nombre": "Lenovo IdeaCentre AIO 3 24\"",
+        "categoria": "all-in-one",
+        "cantidad": 1,
+        "precio_unitario": 3499,
+        "descuento": 0,
+        "subtotal": 3499
+      }
+    ],
+    "subtotal": 3499,
+    "igv": 629.82,
+    "total": 4128.82,
+    "metodo_pago": "TARJETA",
+    "estado": "PAGADA",
+    "vendedor": "Ana Martínez"
+  },
+  {
+    "_id": {
+      "$oid": "66d000000000000000000008"
+    },
+    "numero": "F001-000003",
+    "tipo_comprobante": "FACTURA",
+    "fecha": {
+      "$date": "2026-09-11T14:40:00Z"
+    },
+    "cliente_id": {
+      "$oid": "66c000000000000000000003"
+    },
+    "cliente": {
+      "nombre": "Estudio Contable Mantaro S.A.C.",
+      "tipo_documento": "RUC",
+      "numero_documento": "20587654329"
+    },
+    "items": [
+      {
+        "producto_id": {
+          "$oid": "66b000000000000000000004"
+        },
+        "codigo": "LAP-DEL-004",
+        "nombre": "Dell Latitude 5440",
+        "categoria": "laptop",
+        "cantidad": 2,
+        "precio_unitario": 4599,
+        "descuento": 0,
+        "subtotal": 9198
+      },
+      {
+        "producto_id": {
+          "$oid": "66b000000000000000000010"
+        },
+        "codigo": "ACC-LOG-010",
+        "nombre": "Logitech MX Master 3S",
+        "categoria": "accesorio",
+        "cantidad": 2,
+        "precio_unitario": 449,
+        "descuento": 0,
+        "subtotal": 898
+      }
+    ],
+    "subtotal": 10096,
+    "igv": 1817.28,
+    "total": 11913.28,
+    "metodo_pago": "TRANSFERENCIA",
+    "estado": "PAGADA",
+    "vendedor": "Pedro Ramírez"
+  },
+  {
+    "_id": {
+      "$oid": "66d000000000000000000009"
+    },
+    "numero": "B001-000006",
+    "tipo_comprobante": "BOLETA",
+    "fecha": {
+      "$date": "2026-10-03T22:00:00Z"
+    },
+    "cliente_id": {
+      "$oid": "66c000000000000000000004"
+    },
+    "cliente": {
+      "nombre": "Javier García Torres",
+      "tipo_documento": "DNI",
+      "numero_documento": "70011223"
+    },
+    "items": [
+      {
+        "producto_id": {
+          "$oid": "66b000000000000000000006"
+        },
+        "codigo": "DES-ACE-006",
+        "nombre": "Acer Nitro N50 Gaming",
+        "categoria": "desktop",
+        "cantidad": 1,
+        "precio_unitario": 5299,
+        "descuento": 0,
+        "subtotal": 5299
+      },
+      {
+        "producto_id": {
+          "$oid": "66b000000000000000000011"
+        },
+        "codigo": "ACC-HYP-011",
+        "nombre": "HyperX Alloy Origins Core",
+        "categoria": "accesorio",
+        "cantidad": 1,
+        "precio_unitario": 389,
+        "descuento": 30,
+        "subtotal": 359
+      }
+    ],
+    "subtotal": 5658,
+    "igv": 1018.44,
+    "total": 6676.44,
+    "metodo_pago": "YAPE",
+    "estado": "PAGADA",
+    "vendedor": "Ana Martínez"
+  },
+  {
+    "_id": {
+      "$oid": "66d000000000000000000010"
+    },
+    "numero": "B001-000007",
+    "tipo_comprobante": "BOLETA",
+    "fecha": {
+      "$date": "2026-10-20T18:25:00Z"
+    },
+    "cliente_id": {
+      "$oid": "66c000000000000000000002"
+    },
+    "cliente": {
+      "nombre": "María López Gutiérrez",
+      "tipo_documento": "DNI",
+      "numero_documento": "71234567"
+    },
+    "items": [
+      {
+        "producto_id": {
+          "$oid": "66b000000000000000000001"
+        },
+        "codigo": "LAP-LEN-001",
+        "nombre": "Lenovo IdeaPad Slim 5 14\"",
+        "categoria": "laptop",
+        "cantidad": 1,
+        "precio_unitario": 3299,
+        "descuento": 0,
+        "subtotal": 3299
+      },
+      {
+        "producto_id": {
+          "$oid": "66b000000000000000000012"
+        },
+        "codigo": "COM-KIN-012",
+        "nombre": "Kingston FURY Beast 16GB DDR5",
+        "categoria": "componente",
+        "cantidad": 2,
+        "precio_unitario": 289,
+        "descuento": 0,
+        "subtotal": 578
+      }
+    ],
+    "subtotal": 3877,
+    "igv": 697.86,
+    "total": 4574.86,
+    "metodo_pago": "TARJETA",
+    "estado": "PENDIENTE",
+    "vendedor": "Pedro Ramírez"
+  }
+]

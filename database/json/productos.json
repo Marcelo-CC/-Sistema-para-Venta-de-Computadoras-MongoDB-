@@ -1,0 +1,433 @@
+[
+  {
+    "_id": {
+      "$oid": "66b000000000000000000001"
+    },
+    "codigo": "LAP-LEN-001",
+    "codigo_barras": "7750000000011",
+    "nombre": "Lenovo IdeaPad Slim 5 14\"",
+    "categoria": "laptop",
+    "marca": "Lenovo",
+    "precio": 3299,
+    "costo": 2650,
+    "stock": 12,
+    "stock_minimo": 4,
+    "proveedor_id": {
+      "$oid": "66a000000000000000000001"
+    },
+    "etiquetas": [
+      "oficina",
+      "estudiantes",
+      "ultraligera"
+    ],
+    "especificaciones": {
+      "procesador": "AMD Ryzen 7 7730U",
+      "ram_gb": 16,
+      "almacenamiento": {
+        "tipo": "SSD NVMe",
+        "capacidad_gb": 512
+      },
+      "gpu": "AMD Radeon integrada",
+      "pantalla_pulgadas": 14,
+      "sistema_operativo": "Windows 11 Home",
+      "peso_kg": 1.46
+    },
+    "activo": true,
+    "fecha_registro": {
+      "$date": "2026-03-01T15:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66b000000000000000000002"
+    },
+    "codigo": "LAP-ASU-002",
+    "codigo_barras": "7750000000028",
+    "nombre": "ASUS TUF Gaming F15",
+    "categoria": "laptop",
+    "marca": "ASUS",
+    "precio": 4899,
+    "costo": 3950,
+    "stock": 3,
+    "stock_minimo": 3,
+    "proveedor_id": {
+      "$oid": "66a000000000000000000002"
+    },
+    "etiquetas": [
+      "gaming",
+      "alto rendimiento"
+    ],
+    "especificaciones": {
+      "procesador": "Intel Core i7-12700H",
+      "ram_gb": 16,
+      "almacenamiento": {
+        "tipo": "SSD NVMe",
+        "capacidad_gb": 1024
+      },
+      "gpu": "NVIDIA GeForce RTX 4060 8GB",
+      "pantalla_pulgadas": 15.6,
+      "frecuencia_hz": 144,
+      "sistema_operativo": "Windows 11 Home",
+      "peso_kg": 2.2
+    },
+    "activo": true,
+    "fecha_registro": {
+      "$date": "2026-03-01T15:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66b000000000000000000003"
+    },
+    "codigo": "LAP-HP-003",
+    "codigo_barras": "7750000000035",
+    "nombre": "HP 250 G10",
+    "categoria": "laptop",
+    "marca": "HP",
+    "precio": 2199,
+    "costo": 1720,
+    "stock": 20,
+    "stock_minimo": 5,
+    "proveedor_id": {
+      "$oid": "66a000000000000000000001"
+    },
+    "etiquetas": [
+      "oficina",
+      "económica"
+    ],
+    "especificaciones": {
+      "procesador": "Intel Core i5-1335U",
+      "ram_gb": 8,
+      "almacenamiento": {
+        "tipo": "SSD",
+        "capacidad_gb": 512
+      },
+      "gpu": "Intel Iris Xe",
+      "pantalla_pulgadas": 15.6,
+      "sistema_operativo": "Windows 11 Pro",
+      "peso_kg": 1.74
+    },
+    "activo": true,
+    "fecha_registro": {
+      "$date": "2026-03-01T15:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66b000000000000000000004"
+    },
+    "codigo": "LAP-DEL-004",
+    "codigo_barras": "7750000000042",
+    "nombre": "Dell Latitude 5440",
+    "categoria": "laptop",
+    "marca": "Dell",
+    "precio": 4599,
+    "costo": 3800,
+    "stock": 2,
+    "stock_minimo": 3,
+    "proveedor_id": {
+      "$oid": "66a000000000000000000001"
+    },
+    "etiquetas": [
+      "empresarial",
+      "oficina"
+    ],
+    "especificaciones": {
+      "procesador": "Intel Core i7-1355U",
+      "ram_gb": 16,
+      "almacenamiento": {
+        "tipo": "SSD NVMe",
+        "capacidad_gb": 512
+      },
+      "gpu": "Intel Iris Xe",
+      "pantalla_pulgadas": 14,
+      "sistema_operativo": "Windows 11 Pro",
+      "peso_kg": 1.38
+    },
+    "activo": true,
+    "fecha_registro": {
+      "$date": "2026-03-01T15:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66b000000000000000000005"
+    },
+    "codigo": "DES-HP-005",
+    "codigo_barras": "7750000000059",
+    "nombre": "HP Pro Tower 400 G9",
+    "categoria": "desktop",
+    "marca": "HP",
+    "precio": 2899,
+    "costo": 2300,
+    "stock": 8,
+    "stock_minimo": 3,
+    "proveedor_id": {
+      "$oid": "66a000000000000000000001"
+    },
+    "etiquetas": [
+      "oficina",
+      "empresarial"
+    ],
+    "especificaciones": {
+      "procesador": "Intel Core i5-13500",
+      "ram_gb": 16,
+      "almacenamiento": {
+        "tipo": "SSD",
+        "capacidad_gb": 512
+      },
+      "gpu": "Intel UHD 770",
+      "sistema_operativo": "Windows 11 Pro",
+      "formato": "Torre"
+    },
+    "activo": true,
+    "fecha_registro": {
+      "$date": "2026-03-01T15:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66b000000000000000000006"
+    },
+    "codigo": "DES-ACE-006",
+    "codigo_barras": "7750000000066",
+    "nombre": "Acer Nitro N50 Gaming",
+    "categoria": "desktop",
+    "marca": "Acer",
+    "precio": 5299,
+    "costo": 4300,
+    "stock": 1,
+    "stock_minimo": 2,
+    "proveedor_id": {
+      "$oid": "66a000000000000000000002"
+    },
+    "etiquetas": [
+      "gaming",
+      "alto rendimiento"
+    ],
+    "especificaciones": {
+      "procesador": "Intel Core i7-14700F",
+      "ram_gb": 32,
+      "almacenamiento": {
+        "tipo": "SSD NVMe",
+        "capacidad_gb": 1024
+      },
+      "gpu": "NVIDIA GeForce RTX 4070 12GB",
+      "sistema_operativo": "Windows 11 Home",
+      "formato": "Torre"
+    },
+    "activo": true,
+    "fecha_registro": {
+      "$date": "2026-03-01T15:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66b000000000000000000007"
+    },
+    "codigo": "AIO-LEN-007",
+    "codigo_barras": "7750000000073",
+    "nombre": "Lenovo IdeaCentre AIO 3 24\"",
+    "categoria": "all-in-one",
+    "marca": "Lenovo",
+    "precio": 3499,
+    "costo": 2850,
+    "stock": 5,
+    "stock_minimo": 2,
+    "proveedor_id": {
+      "$oid": "66a000000000000000000001"
+    },
+    "etiquetas": [
+      "hogar",
+      "oficina"
+    ],
+    "especificaciones": {
+      "procesador": "AMD Ryzen 5 7530U",
+      "ram_gb": 16,
+      "almacenamiento": {
+        "tipo": "SSD",
+        "capacidad_gb": 512
+      },
+      "gpu": "AMD Radeon integrada",
+      "pantalla_pulgadas": 23.8,
+      "sistema_operativo": "Windows 11 Home"
+    },
+    "activo": true,
+    "fecha_registro": {
+      "$date": "2026-03-01T15:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66b000000000000000000008"
+    },
+    "codigo": "MON-SAM-008",
+    "codigo_barras": "7750000000080",
+    "nombre": "Samsung Odyssey G5 27\"",
+    "categoria": "monitor",
+    "marca": "Samsung",
+    "precio": 1199,
+    "costo": 920,
+    "stock": 10,
+    "stock_minimo": 4,
+    "proveedor_id": {
+      "$oid": "66a000000000000000000003"
+    },
+    "etiquetas": [
+      "gaming",
+      "curvo"
+    ],
+    "especificaciones": {
+      "pantalla_pulgadas": 27,
+      "resolucion": "2560x1440",
+      "panel": "VA",
+      "frecuencia_hz": 165,
+      "curvo": true,
+      "puertos": [
+        "HDMI",
+        "DisplayPort"
+      ]
+    },
+    "activo": true,
+    "fecha_registro": {
+      "$date": "2026-03-01T15:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66b000000000000000000009"
+    },
+    "codigo": "MON-LG-009",
+    "codigo_barras": "7750000000097",
+    "nombre": "LG 24MP400 24\"",
+    "categoria": "monitor",
+    "marca": "LG",
+    "precio": 549,
+    "costo": 410,
+    "stock": 4,
+    "stock_minimo": 5,
+    "proveedor_id": {
+      "$oid": "66a000000000000000000003"
+    },
+    "etiquetas": [
+      "oficina",
+      "económica"
+    ],
+    "especificaciones": {
+      "pantalla_pulgadas": 23.8,
+      "resolucion": "1920x1080",
+      "panel": "IPS",
+      "frecuencia_hz": 75,
+      "curvo": false,
+      "puertos": [
+        "HDMI",
+        "VGA"
+      ]
+    },
+    "activo": true,
+    "fecha_registro": {
+      "$date": "2026-03-01T15:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66b000000000000000000010"
+    },
+    "codigo": "ACC-LOG-010",
+    "codigo_barras": "7750000000103",
+    "nombre": "Logitech MX Master 3S",
+    "categoria": "accesorio",
+    "marca": "Logitech",
+    "precio": 449,
+    "costo": 330,
+    "stock": 25,
+    "stock_minimo": 8,
+    "proveedor_id": {
+      "$oid": "66a000000000000000000004"
+    },
+    "etiquetas": [
+      "mouse",
+      "inalámbrico",
+      "productividad"
+    ],
+    "especificaciones": {
+      "tipo": "Mouse",
+      "conectividad": [
+        "Bluetooth",
+        "USB Logi Bolt"
+      ],
+      "dpi": 8000,
+      "bateria": "Recargable USB-C"
+    },
+    "activo": true,
+    "fecha_registro": {
+      "$date": "2026-03-01T15:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66b000000000000000000011"
+    },
+    "codigo": "ACC-HYP-011",
+    "codigo_barras": "7750000000110",
+    "nombre": "HyperX Alloy Origins Core",
+    "categoria": "accesorio",
+    "marca": "HyperX",
+    "precio": 389,
+    "costo": 280,
+    "stock": 6,
+    "stock_minimo": 6,
+    "proveedor_id": {
+      "$oid": "66a000000000000000000004"
+    },
+    "etiquetas": [
+      "teclado",
+      "gaming",
+      "mecánico"
+    ],
+    "especificaciones": {
+      "tipo": "Teclado mecánico TKL",
+      "conectividad": [
+        "USB-C"
+      ],
+      "switches": "HyperX Red",
+      "retroiluminacion": "RGB"
+    },
+    "activo": true,
+    "fecha_registro": {
+      "$date": "2026-03-01T15:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66b000000000000000000012"
+    },
+    "codigo": "COM-KIN-012",
+    "codigo_barras": "7750000000127",
+    "nombre": "Kingston FURY Beast 16GB DDR5",
+    "categoria": "componente",
+    "marca": "Kingston",
+    "precio": 289,
+    "costo": 205,
+    "stock": 30,
+    "stock_minimo": 10,
+    "proveedor_id": {
+      "$oid": "66a000000000000000000003"
+    },
+    "etiquetas": [
+      "memoria RAM",
+      "upgrade"
+    ],
+    "especificaciones": {
+      "tipo": "Memoria RAM",
+      "capacidad_gb": 16,
+      "tecnologia": "DDR5",
+      "frecuencia_mhz": 5200,
+      "formato": "DIMM"
+    },
+    "activo": true,
+    "fecha_registro": {
+      "$date": "2026-03-01T15:00:00Z"
+    }
+  }
+]

@@ -1,0 +1,232 @@
+[
+  {
+    "_id": {
+      "$oid": "66c000000000000000000001"
+    },
+    "tipo_documento": "DNI",
+    "numero_documento": "45678912",
+    "nombre": "Carlos Pérez Rojas",
+    "email": "carlos.perez@gmail.com",
+    "telefono": "987654321",
+    "direccion": {
+      "calle": "Jr. Puno 345",
+      "distrito": "Huancayo",
+      "ciudad": "Huancayo"
+    },
+    "fecha_registro": {
+      "$date": "2026-01-12T15:00:00Z"
+    },
+    "historial_compras": [
+      {
+        "venta_id": {
+          "$oid": "66d000000000000000000001"
+        },
+        "numero": "B001-000001",
+        "fecha": {
+          "$date": "2026-03-14T16:20:00Z"
+        },
+        "total": 4399.04,
+        "estado": "PAGADA"
+      },
+      {
+        "venta_id": {
+          "$oid": "66d000000000000000000006"
+        },
+        "numero": "B001-000004",
+        "fecha": {
+          "$date": "2026-07-22T17:00:00Z"
+        },
+        "total": 341.02,
+        "estado": "ANULADA"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "66c000000000000000000002"
+    },
+    "tipo_documento": "DNI",
+    "numero_documento": "71234567",
+    "nombre": "María López Gutiérrez",
+    "email": "maria.lopez@hotmail.com",
+    "telefono": "956123478",
+    "direccion": {
+      "calle": "Av. Ferrocarril 1020",
+      "distrito": "Chilca",
+      "ciudad": "Huancayo"
+    },
+    "fecha_registro": {
+      "$date": "2026-02-03T15:00:00Z"
+    },
+    "historial_compras": [
+      {
+        "venta_id": {
+          "$oid": "66d000000000000000000003"
+        },
+        "numero": "B001-000002",
+        "fecha": {
+          "$date": "2026-04-27T19:45:00Z"
+        },
+        "total": 1873.84,
+        "estado": "PAGADA"
+      },
+      {
+        "venta_id": {
+          "$oid": "66d000000000000000000010"
+        },
+        "numero": "B001-000007",
+        "fecha": {
+          "$date": "2026-10-20T18:25:00Z"
+        },
+        "total": 4574.86,
+        "estado": "PENDIENTE"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "66c000000000000000000003"
+    },
+    "tipo_documento": "RUC",
+    "numero_documento": "20587654329",
+    "nombre": "Estudio Contable Mantaro S.A.C.",
+    "email": "compras@contablemantaro.pe",
+    "telefono": "064245678",
+    "direccion": {
+      "calle": "Calle Real 1500",
+      "distrito": "Huancayo",
+      "ciudad": "Huancayo"
+    },
+    "fecha_registro": {
+      "$date": "2026-02-20T15:00:00Z"
+    },
+    "historial_compras": [
+      {
+        "venta_id": {
+          "$oid": "66d000000000000000000002"
+        },
+        "numero": "F001-000001",
+        "fecha": {
+          "$date": "2026-04-02T14:05:00Z"
+        },
+        "total": 15918.2,
+        "estado": "PAGADA"
+      },
+      {
+        "venta_id": {
+          "$oid": "66d000000000000000000008"
+        },
+        "numero": "F001-000003",
+        "fecha": {
+          "$date": "2026-09-11T14:40:00Z"
+        },
+        "total": 11913.28,
+        "estado": "PAGADA"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "66c000000000000000000004"
+    },
+    "tipo_documento": "DNI",
+    "numero_documento": "70011223",
+    "nombre": "Javier García Torres",
+    "email": "javier.garcia@outlook.com",
+    "telefono": "912345670",
+    "direccion": {
+      "calle": "Av. Huancavelica 890",
+      "distrito": "El Tambo",
+      "ciudad": "Huancayo"
+    },
+    "fecha_registro": {
+      "$date": "2026-03-08T15:00:00Z"
+    },
+    "historial_compras": [
+      {
+        "venta_id": {
+          "$oid": "66d000000000000000000004"
+        },
+        "numero": "B001-000003",
+        "fecha": {
+          "$date": "2026-05-18T21:10:00Z"
+        },
+        "total": 6344.86,
+        "estado": "PAGADA"
+      },
+      {
+        "venta_id": {
+          "$oid": "66d000000000000000000009"
+        },
+        "numero": "B001-000006",
+        "fecha": {
+          "$date": "2026-10-03T22:00:00Z"
+        },
+        "total": 6676.44,
+        "estado": "PAGADA"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "66c000000000000000000005"
+    },
+    "tipo_documento": "RUC",
+    "numero_documento": "20612345678",
+    "nombre": "Colegio Andino del Centro E.I.R.L.",
+    "email": "logistica@colegioandino.edu.pe",
+    "telefono": "064201010",
+    "direccion": {
+      "calle": "Jr. Lima 220",
+      "distrito": "Huancayo",
+      "ciudad": "Huancayo"
+    },
+    "fecha_registro": {
+      "$date": "2026-04-01T15:00:00Z"
+    },
+    "historial_compras": [
+      {
+        "venta_id": {
+          "$oid": "66d000000000000000000005"
+        },
+        "numero": "F001-000002",
+        "fecha": {
+          "$date": "2026-06-09T15:30:00Z"
+        },
+        "total": 18157.84,
+        "estado": "PAGADA"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "66c000000000000000000006"
+    },
+    "tipo_documento": "DNI",
+    "numero_documento": "76543210",
+    "nombre": "Lucía Sánchez Vargas",
+    "email": "lucia.sanchez@gmail.com",
+    "telefono": "934567812",
+    "direccion": {
+      "calle": "Psje. Los Pinos 45",
+      "distrito": "Pilcomayo",
+      "ciudad": "Huancayo"
+    },
+    "fecha_registro": {
+      "$date": "2026-05-15T15:00:00Z"
+    },
+    "historial_compras": [
+      {
+        "venta_id": {
+          "$oid": "66d000000000000000000007"
+        },
+        "numero": "B001-000005",
+        "fecha": {
+          "$date": "2026-08-05T20:15:00Z"
+        },
+        "total": 4128.82,
+        "estado": "PAGADA"
+      }
+    ]
+  }
+]

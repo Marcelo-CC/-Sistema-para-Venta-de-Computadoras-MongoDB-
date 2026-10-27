@@ -1,0 +1,4 @@
+node_modules/
+.env
+entrega_moodle.txt
+*.log

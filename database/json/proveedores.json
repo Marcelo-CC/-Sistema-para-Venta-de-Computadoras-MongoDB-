@@ -1,0 +1,106 @@
+[
+  {
+    "_id": {
+      "$oid": "66a000000000000000000001"
+    },
+    "ruc": "20512345671",
+    "razon_social": "TecnoDistribuidora Andina S.A.C.",
+    "contacto": {
+      "nombre": "Rosa Quispe",
+      "email": "ventas@tecnoandina.pe",
+      "telefono": "014567890"
+    },
+    "direccion": {
+      "calle": "Av. Javier Prado Este 1234",
+      "distrito": "San Isidro",
+      "ciudad": "Lima"
+    },
+    "marcas": [
+      "Lenovo",
+      "HP",
+      "Dell"
+    ],
+    "activo": true,
+    "fecha_registro": {
+      "$date": "2026-01-05T15:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66a000000000000000000002"
+    },
+    "ruc": "20601234562",
+    "razon_social": "Importaciones CompuRed E.I.R.L.",
+    "contacto": {
+      "nombre": "Luis Huamán",
+      "email": "pedidos@compured.pe",
+      "telefono": "064223344"
+    },
+    "direccion": {
+      "calle": "Jr. Ica 456",
+      "distrito": "Huancayo",
+      "ciudad": "Huancayo"
+    },
+    "marcas": [
+      "ASUS",
+      "Acer",
+      "MSI"
+    ],
+    "activo": true,
+    "fecha_registro": {
+      "$date": "2026-01-10T15:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66a000000000000000000003"
+    },
+    "ruc": "20456789013",
+    "razon_social": "Global Hardware Perú S.A.",
+    "contacto": {
+      "nombre": "Carla Mendoza",
+      "email": "comercial@globalhw.pe",
+      "telefono": "017788990"
+    },
+    "direccion": {
+      "calle": "Av. Arequipa 3210",
+      "distrito": "Miraflores",
+      "ciudad": "Lima"
+    },
+    "marcas": [
+      "Samsung",
+      "LG",
+      "Kingston"
+    ],
+    "activo": true,
+    "fecha_registro": {
+      "$date": "2026-02-01T15:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66a000000000000000000004"
+    },
+    "ruc": "20398765434",
+    "razon_social": "Periféricos del Centro S.A.C.",
+    "contacto": {
+      "nombre": "Jorge Salazar",
+      "email": "contacto@perifericoscentro.pe",
+      "telefono": "064998877"
+    },
+    "direccion": {
+      "calle": "Calle Real 789",
+      "distrito": "El Tambo",
+      "ciudad": "Huancayo"
+    },
+    "marcas": [
+      "Logitech",
+      "HyperX",
+      "Redragon"
+    ],
+    "activo": true,
+    "fecha_registro": {
+      "$date": "2026-02-15T15:00:00Z"
+    }
+  }
+]
