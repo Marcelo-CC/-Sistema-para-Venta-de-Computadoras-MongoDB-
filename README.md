@@ -7,10 +7,13 @@ Base de datos orientada a documentos en **MongoDB** para una tienda de computado
 | | |
 |---|---|
 | **Estudiante** | Marcelo Giovanni Castañeda Cano |
-| **Carrera** | _[Ingeniería de Sistemas e Informática]_ |
+| **Carrera** | Ingeniería de Sistemas e Informática |
 | **Asignatura** | Ingeniería Web |
 | **Universidad** | Universidad Continental |
 | **Actividad** | Semana 12 — Base de datos MongoDB y rutas API |
+| **Conexión utilizada** | MongoDB Local (`mongodb://localhost:27017/venta_computadoras`) |
+
+> **Alcance:** el proyecto es el **backend** del sistema (base de datos + API REST). No incluye frontend. La API responde en formato JSON y se prueba desde el navegador (rutas GET) o con Postman (GET, POST, PATCH y DELETE).
 
 ## 📝 Descripción técnica
 
@@ -176,6 +179,21 @@ MongoDB conectado
 Servidor corriendo en http://localhost:3000/api
 ```
 
+### 6. Ver la base de datos
+
+MongoDB Server corre como **servicio de Windows** (sin ventana). Para ver los datos hay dos opciones:
+
+- **mongosh** (consola):
+
+  ```
+  mongosh "mongodb://localhost:27017/venta_computadoras"
+  show collections
+  db.productos.find()
+  db.ventas.find().limit(2)
+  ```
+
+- **MongoDB Compass** (interfaz gráfica): conectarse a `mongodb://localhost:27017` y abrir la base `venta_computadoras`.
+
 ## 🔌 Rutas principales
 
 | Método | Ruta | Descripción |
@@ -201,6 +219,8 @@ Servidor corriendo en http://localhost:3000/api
 Las 32 rutas, los cuerpos JSON de ejemplo para Postman, los códigos de error y el diagrama de secuencia de una venta están en **[routes/endpoints.md](routes/endpoints.md)**.
 
 ### Prueba rápida con Postman o el navegador
+
+Las rutas GET se pueden abrir directamente en el navegador. En Chrome o Edge, marca **"Impresión con formato estilístico"** para ver el JSON ordenado.
 
 ```
 GET  http://localhost:3000/api/productos/categoria/laptop
