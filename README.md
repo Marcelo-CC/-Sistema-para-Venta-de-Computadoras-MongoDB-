@@ -16,11 +16,11 @@ Base de datos orientada a documentos en **MongoDB** para una tienda de computado
 
 | Tecnología | Versión |
 |---|---|
-| MongoDB Server | 7.0 o superior (recomendado 8.0) — local o MongoDB Atlas |
-| mongosh | 2.x |
+| MongoDB Server | 7.0 o superior — probado con 9.0.4 local (también funciona con MongoDB Atlas) |
+| mongosh | 2.x (probado con 2.14.0) |
 | Node.js | 18 o superior |
-| Mongoose | 8.x |
-| Express | 5.x |
+| Mongoose | 8.x (probado con 8.24) |
+| Express | 5.x (probado con 5.3) |
 | Otros | dotenv, cors, helmet, morgan |
 
 **Base de datos:** `venta_computadoras`. Tiene **4 colecciones**:
