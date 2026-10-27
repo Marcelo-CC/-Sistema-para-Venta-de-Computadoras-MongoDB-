@@ -97,8 +97,8 @@ erDiagram
 ### 1. Clonar e instalar dependencias
 
 ```bash
-git clone https://github.com/Marcelo-CC/venta-computadoras-mongodb.git
-cd venta-computadoras-mongodb
+git clone https://github.com/Marcelo-CC/-Sistema-para-Venta-de-Computadoras-MongoDB-.git
+cd ./-Sistema-para-Venta-de-Computadoras-MongoDB-
 npm install
 ```
 
